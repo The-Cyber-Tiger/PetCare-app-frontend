@@ -33,7 +33,7 @@ function Insumos(){
                 setGalletas(response[0].galletas[0])
                 
             } catch (error) {
-                console.log(error)
+                console.error(error)
             }
         }
         getInsumosData()

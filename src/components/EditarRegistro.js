@@ -40,7 +40,6 @@ function EditarRegistro(){
     }
 
     const [regitStatus, setRegitStatus] = useState({"state": "pet-regit-1"})
-    console.log(pet)
 
     if(regitStatus.state ==="pet-regit-1" ){
         return(

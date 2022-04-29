@@ -18,7 +18,7 @@ function Hotel(){
                 let response = res.data
                 setRooms(response)
             } catch (error) {
-                console.log(error)
+                console.error(error)
             }
         }
         getHotelInfo()

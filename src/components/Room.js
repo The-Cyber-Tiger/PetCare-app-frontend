@@ -62,7 +62,6 @@ const Room = ({room, switcher, setSwitcher}) =>{
     }
 
     const leaveRoom = async () =>{
-        console.log('cambiar el status del room y en blanco '+room._id)
         try {
             let token = localStorage.getItem('token')
             await updateRoom(token, room._id, defaultRoom)

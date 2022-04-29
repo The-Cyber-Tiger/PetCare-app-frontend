@@ -50,7 +50,6 @@ const MainPet = () => {
         }
     }
     
-    console.log(owner.nombre)
 
 
     return(

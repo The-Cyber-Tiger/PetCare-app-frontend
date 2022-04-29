@@ -43,7 +43,7 @@ function Sidebar({perfil}){
        </nav>
        <div className="vet-info">
             <img className="vet-pic" alt="vet" src="https://www.sadenir.com.uy/wp-content/uploads/2020/11/veterinarian-check-ing-puppy-s-health-2.jpg"/>
-            <h4>Mv. {perfil.nombre}</h4>
+            <h4>Dev by {perfil.nombre}</h4>
             <div className="d-flex">
                 <i className="material-icons">phone</i>
                 <p>{perfil.telefono}</p>

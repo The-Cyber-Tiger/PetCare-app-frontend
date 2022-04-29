@@ -8,9 +8,9 @@ import Body from "./Body"
 const Dashboard = () =>{
     const [navSearch, setnavSearch] = useState("")
     let [perfil, setPerfil] = useState({
-      nombre: "Laura Mascotte",
-      telefono: "474-523-768",
-      email: "laumascotte@dogmail"
+      nombre: "Rodrigo Gibran",
+      telefono: "456-789-1011",
+      email: "rodrigo.gibran.dev@gmail.com"
   })
 
   useEffect(()=>{

@@ -24,14 +24,13 @@ const DataCard = ({ reload, setReload, lote, img, insumo, minValue}) =>{
                 try {
                     await updateInsumo(token, lote, {  [keyProduct] : [{cantidad: count --, status: false}]} )
                     } catch (error) {
-                        console.log(error)
+                        console.error(error)
                     }
-                    console.log('FALSEEE')
             } else {
                 try {
                     await updateInsumo(token, lote, {  [keyProduct] : [{cantidad: count --, status: true}]} )
                     } catch (error) {
-                        console.log(error)
+                        console.error(error)
                     }
             }
             
@@ -42,7 +41,7 @@ const DataCard = ({ reload, setReload, lote, img, insumo, minValue}) =>{
                 try {
                     await updateInsumo(token, lote, {  [keyProduct] : [{cantidad: count ++, status: true}]} )
                     } catch (error) {
-                        console.log(error)
+                        console.error(error)
                     }
             } else{
                 try {
@@ -50,7 +49,7 @@ const DataCard = ({ reload, setReload, lote, img, insumo, minValue}) =>{
                 await updateInsumo(token, lote, {  [keyProduct] : [{cantidad: count ++, status: false}]} )
                
                 } catch (error) {
-                    console.log(error)
+                    console.error(error)
                 }
             }
             

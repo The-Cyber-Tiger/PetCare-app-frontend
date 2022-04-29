@@ -8,7 +8,6 @@ const RoomRegit = ({ children }) => {
   if (!elRef.current) {
     elRef.current = document.createElement("div");
   }
-  // console.log(elRef.current)
 
   useEffect(() => {
     modalRoot.appendChild(elRef.current);

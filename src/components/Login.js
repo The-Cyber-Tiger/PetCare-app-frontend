@@ -50,7 +50,6 @@ const Login = ({auth, setAuth}) =>{
           try {
                     let res = await getToken(usuario)
                     if(res.token){
-                    console.log(res.token)
                     localStorage.setItem('token', res.token)
                     setAuth(true)
 

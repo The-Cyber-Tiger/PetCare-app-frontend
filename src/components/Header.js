@@ -20,7 +20,7 @@ const Header = ({navSearch}) => {
     const handleSearch = (e) =>{
         setInput(e)
         navSearch(input)
-        // console.log(input)
+        
         
     }
     return(

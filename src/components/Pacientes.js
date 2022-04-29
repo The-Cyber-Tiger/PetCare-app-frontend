@@ -8,7 +8,6 @@ import { getAllPets } from "../API/api-client";
 
 const Pacientes =  (petSearch={})=> {
     
-    console.log(petSearch)
     const [petList, setpetList] = useState([])
     const [paginaActual,setpaginaActual] = useState(1);
     const TotalxPagina = 4;
