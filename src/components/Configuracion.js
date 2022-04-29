@@ -7,9 +7,9 @@ function Configuracion({perfil, setPerfil}){
     const handleChange = (e)=>{
         setPerfil({...perfil,[e.target.name] : e.target.value})
     }
-    const handleSave = ()=>{
+    const handleSave = (e)=>{
+      e.preventDefault()
         setPerfil(perfil)
-        console.log(perfil)
     }
 
     return(
